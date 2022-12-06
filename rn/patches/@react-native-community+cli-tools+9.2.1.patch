@@ -1,0 +1,12 @@
+diff --git a/node_modules/@react-native-community/cli-tools/build/findProjectRoot.js b/node_modules/@react-native-community/cli-tools/build/findProjectRoot.js
+index 9b2c48d..8fb3ec6 100644
+--- a/node_modules/@react-native-community/cli-tools/build/findProjectRoot.js
++++ b/node_modules/@react-native-community/cli-tools/build/findProjectRoot.js
+@@ -33,6 +33,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
+  * Finds project root by looking for a closest `package.json`.
+  */
+ function findProjectRoot(cwd = process.cwd()) {
++  cwd = '/Users/xinya/Desktop/Native-Integrated-RN/rn'
+   const packageLocation = _findUp().default.sync('package.json', {
+     cwd
+   });
