@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E702BF92940969600FB5F01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E702BF82940969600FB5F01 /* AppDelegate.swift */; };
+		2E702BFB2940969600FB5F01 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E702BFA2940969600FB5F01 /* SceneDelegate.swift */; };
+		2E702C022940969700FB5F01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E702C012940969700FB5F01 /* Assets.xcassets */; };
+		2E702C052940969700FB5F01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E702C032940969700FB5F01 /* LaunchScreen.storyboard */; };
+		2E702C0E294096CB00FB5F01 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E702C0D294096CB00FB5F01 /* CalendarViewController.swift */; };
+		2E702C132940972F00FB5F01 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E702C122940972F00FB5F01 /* MainTabBarController.swift */; };
+		2E702C172940976E00FB5F01 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E702C162940976E00FB5F01 /* HomeViewController.swift */; };
+		2E702C192940978A00FB5F01 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E702C182940978A00FB5F01 /* MineViewController.swift */; };
+		2E702C1C294097CB00FB5F01 /* common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E702C1B294097CB00FB5F01 /* common.swift */; };
+		3CF3A7A6939FA5C492E5A0DB /* libPods-HelloWolrd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7D761FE21E3925F2CC30DDC /* libPods-HelloWolrd.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E702BF52940969600FB5F01 /* HelloWolrd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWolrd.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E702BF82940969600FB5F01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2E702BFA2940969600FB5F01 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2E702C012940969700FB5F01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E702C042940969700FB5F01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E702C062940969700FB5F01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E702C0D294096CB00FB5F01 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		2E702C122940972F00FB5F01 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		2E702C162940976E00FB5F01 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2E702C182940978A00FB5F01 /* MineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		2E702C1B294097CB00FB5F01 /* common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = common.swift; sourceTree = "<group>"; };
+		380D5A37C1D99BF9FAAC5AF6 /* Pods-HelloWolrd.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWolrd.debug.xcconfig"; path = "Target Support Files/Pods-HelloWolrd/Pods-HelloWolrd.debug.xcconfig"; sourceTree = "<group>"; };
+		A7D761FE21E3925F2CC30DDC /* libPods-HelloWolrd.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HelloWolrd.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E60D9C694103FD5D6550FD87 /* Pods-HelloWolrd.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWolrd.release.xcconfig"; path = "Target Support Files/Pods-HelloWolrd/Pods-HelloWolrd.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E702BF22940969600FB5F01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF3A7A6939FA5C492E5A0DB /* libPods-HelloWolrd.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E702BEC2940969600FB5F01 = {
+			isa = PBXGroup;
+			children = (
+				2E702BF72940969600FB5F01 /* HelloWolrd */,
+				2E702BF62940969600FB5F01 /* Products */,
+				CA38C8EBA05D8E67DA6EAD7A /* Pods */,
+				EEE5B5DCDF19A5AA8AF68D93 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2E702BF62940969600FB5F01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E702BF52940969600FB5F01 /* HelloWolrd.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E702BF72940969600FB5F01 /* HelloWolrd */ = {
+			isa = PBXGroup;
+			children = (
+				2E702C1A294097BF00FB5F01 /* Tools */,
+				2E702C152940975100FB5F01 /* Home */,
+				2E702C142940974B00FB5F01 /* Mine */,
+				2E702C0F294096E600FB5F01 /* Main */,
+				2E702C0C294096BB00FB5F01 /* Calendar */,
+				2E702BF82940969600FB5F01 /* AppDelegate.swift */,
+				2E702BFA2940969600FB5F01 /* SceneDelegate.swift */,
+				2E702C012940969700FB5F01 /* Assets.xcassets */,
+				2E702C032940969700FB5F01 /* LaunchScreen.storyboard */,
+				2E702C062940969700FB5F01 /* Info.plist */,
+			);
+			path = HelloWolrd;
+			sourceTree = "<group>";
+		};
+		2E702C0C294096BB00FB5F01 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				2E702C0D294096CB00FB5F01 /* CalendarViewController.swift */,
+			);
+			name = Calendar;
+			sourceTree = "<group>";
+		};
+		2E702C0F294096E600FB5F01 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2E702C122940972F00FB5F01 /* MainTabBarController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		2E702C142940974B00FB5F01 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				2E702C182940978A00FB5F01 /* MineViewController.swift */,
+			);
+			name = Mine;
+			sourceTree = "<group>";
+		};
+		2E702C152940975100FB5F01 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2E702C162940976E00FB5F01 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2E702C1A294097BF00FB5F01 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				2E702C1B294097CB00FB5F01 /* common.swift */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		CA38C8EBA05D8E67DA6EAD7A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				380D5A37C1D99BF9FAAC5AF6 /* Pods-HelloWolrd.debug.xcconfig */,
+				E60D9C694103FD5D6550FD87 /* Pods-HelloWolrd.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EEE5B5DCDF19A5AA8AF68D93 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7D761FE21E3925F2CC30DDC /* libPods-HelloWolrd.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E702BF42940969600FB5F01 /* HelloWolrd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E702C092940969700FB5F01 /* Build configuration list for PBXNativeTarget "HelloWolrd" */;
+			buildPhases = (
+				979E1FB927E09438332FE937 /* [CP] Check Pods Manifest.lock */,
+				2E702BF12940969600FB5F01 /* Sources */,
+				2E702BF22940969600FB5F01 /* Frameworks */,
+				2E702BF32940969600FB5F01 /* Resources */,
+				0668353D0C8759EEBF5ECF5C /* [CP] Embed Pods Frameworks */,
+				92A01186E549B7A21A0F4E2B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloWolrd;
+			productName = HelloWolrd;
+			productReference = 2E702BF52940969600FB5F01 /* HelloWolrd.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E702BED2940969600FB5F01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					2E702BF42940969600FB5F01 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 2E702BF02940969600FB5F01 /* Build configuration list for PBXProject "HelloWolrd" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E702BEC2940969600FB5F01;
+			productRefGroup = 2E702BF62940969600FB5F01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E702BF42940969600FB5F01 /* HelloWolrd */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E702BF32940969600FB5F01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E702C052940969700FB5F01 /* LaunchScreen.storyboard in Resources */,
+				2E702C022940969700FB5F01 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0668353D0C8759EEBF5ECF5C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HelloWolrd/Pods-HelloWolrd-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HelloWolrd/Pods-HelloWolrd-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HelloWolrd/Pods-HelloWolrd-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92A01186E549B7A21A0F4E2B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HelloWolrd/Pods-HelloWolrd-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HelloWolrd/Pods-HelloWolrd-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HelloWolrd/Pods-HelloWolrd-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		979E1FB927E09438332FE937 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelloWolrd-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E702BF12940969600FB5F01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E702C1C294097CB00FB5F01 /* common.swift in Sources */,
+				2E702C0E294096CB00FB5F01 /* CalendarViewController.swift in Sources */,
+				2E702C132940972F00FB5F01 /* MainTabBarController.swift in Sources */,
+				2E702C192940978A00FB5F01 /* MineViewController.swift in Sources */,
+				2E702BF92940969600FB5F01 /* AppDelegate.swift in Sources */,
+				2E702BFB2940969600FB5F01 /* SceneDelegate.swift in Sources */,
+				2E702C172940976E00FB5F01 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2E702C032940969700FB5F01 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E702C042940969700FB5F01 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E702C072940969700FB5F01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2E702C082940969700FB5F01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E702C0A2940969700FB5F01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 380D5A37C1D99BF9FAAC5AF6 /* Pods-HelloWolrd.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55Q46WR3M4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HelloWolrd/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinya.HelloWolrd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E702C0B2940969700FB5F01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E60D9C694103FD5D6550FD87 /* Pods-HelloWolrd.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55Q46WR3M4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HelloWolrd/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinya.HelloWolrd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E702BF02940969600FB5F01 /* Build configuration list for PBXProject "HelloWolrd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E702C072940969700FB5F01 /* Debug */,
+				2E702C082940969700FB5F01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E702C092940969700FB5F01 /* Build configuration list for PBXNativeTarget "HelloWolrd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E702C0A2940969700FB5F01 /* Debug */,
+				2E702C0B2940969700FB5F01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E702BED2940969600FB5F01 /* Project object */;
+}

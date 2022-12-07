@@ -9,7 +9,7 @@ index 9fb4446..60e9d06 100644
 -  const src = _path().default.join(folder, userConfig.sourceDir ?? '');
 +  // const src = _path().default.join(folder, userConfig.sourceDir ?? '');
 +
-+  const src = '/Users/xinya/Project/Native-Integrated-RN/ios'
++  const src = '/Users/xinya/Project/Native-Integrated-RN/ios1'
  
    const podfile = (0, _findPodfilePath.default)(src);
    /**
