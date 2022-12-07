@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import {
   AppRegistry,
   StyleSheet,
@@ -6,19 +6,19 @@ import {
   View
 } from 'react-native';
 
-const RNHighScores = ({ scores }) => {
-  const contents = scores.map((score) => (
-    <Text key={score.name}>
-      {score.name}:{score.value}
-      {'\n'}
-    </Text>
-  ));
+const RTNHello = (data) => {
+  useEffect(() => {
+    console.log(data)
+  })
+
   return (
     <View style={styles.container}>
-      <Text style={styles.highScoresTitle}>
-        2048 High Scores!
+      <Text style={styles.helloTitle}>
+        Hello React Native
       </Text>
-      <Text style={styles.scores}>{contents}</Text>
+      <Text style={styles.scores}>
+       { data.message }
+      </Text>
     </View>
   );
 };
@@ -30,7 +30,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor: '#FFFFFF'
   },
-  highScoresTitle: {
+  helloTitle: {
     fontSize: 20,
     textAlign: 'center',
     margin: 10
@@ -43,4 +43,4 @@ const styles = StyleSheet.create({
 });
 
 // Module name
-AppRegistry.registerComponent('RNHighScores', () => RNHighScores);
+AppRegistry.registerComponent('RTNHello', () => RTNHello);
